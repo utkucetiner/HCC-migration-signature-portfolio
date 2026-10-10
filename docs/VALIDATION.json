@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "python": "3.11.0",
+  "platform": "macOS arm64",
+  "isolated_environment": true,
+  "packages_installed_from_registry": true,
+  "pip_check": "passed",
+  "unit_tests": 6,
+  "original_patient_summaries": 13,
+  "patient_summary_json_exact_match": true,
+  "real_cohort_balance_patients": 11,
+  "maximum_balance_contrast_absolute_error": 0.0,
+  "python_syntax_files": 42,
+  "R_syntax_files": 13,
+  "full_raw_data_to_CNV_rerun": false,
+  "private_caches_used_only_locally": true
+}

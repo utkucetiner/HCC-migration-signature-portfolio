@@ -1,0 +1,295 @@
+{
+  "assay_limit_report.py": [
+    "outputs/sc_sn_teknik_sinirlar.md",
+    "work/data/GSE189175_counts_features.tsv.gz",
+    "work/data/GSE189175_series.txt"
+  ],
+  "audit_matrix.py": [
+    "data/external/GSE149614_HCC.scRNAseq.S71915.count.txt.gz",
+    "work/data/GSE149614_HCC.metadata.updated.txt.gz",
+    "work/matrix_audit.json"
+  ],
+  "balance_R_verify.py": [
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_scores.npz",
+    "work/balance_results.json",
+    "work/balance_weights.npz",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz",
+    "work/overlap_"
+  ],
+  "balance_analysis.py": [
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_scores.npz",
+    "work/balance_results.json",
+    "work/balance_weights.npz",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "balance_diagnostics.py": [
+    "outputs/kovaryat-dengeleme-v02.md",
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_scores.npz",
+    "work/balance_results.json",
+    "work/balance_weights.npz",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "balance_figures.py": [
+    "outputs/kovaryat_dengeleme.pdf",
+    "outputs/kovaryat_dengeleme.png",
+    "work/balance_results.json",
+    "work/mplcache"
+  ],
+  "build_balance_report.py": [
+    "outputs/Sharma_kohortu_eleme_eki.md",
+    "outputs/kovaryat-dengeleme-v02.md",
+    "work/balance_results.json"
+  ],
+  "build_gene_order.py": [
+    "work/cnv/gene_order.tsv",
+    "work/cnv/gene_order_audit.json",
+    "work/data/gencode.v38.annotation.gtf.gz",
+    "work/matrix_gene_ids.txt"
+  ],
+  "classify_cnv.R": [
+    "work/cnv"
+  ],
+  "classify_cnv_no_signature.R": [
+    "work/cnv_no_signature"
+  ],
+  "cnv_all_figures.py": [
+    "outputs/GSE149614_inferCNV_sekiz_hasta.pdf",
+    "outputs/GSE149614_inferCNV_sekiz_hasta.png",
+    "work/cnv",
+    "work/mplcache"
+  ],
+  "cnv_consensus_fastpath.R": [],
+  "cnv_preview.py": [
+    "outputs/HCC06_inferCNV_referans_duyarliligi.png",
+    "work/cnv/{p}/cell_labels.tsv",
+    "work/cnv/{p}/{mode}_bins.tsv.gz",
+    "work/mplcache"
+  ],
+  "cnv_report.py": [
+    "outputs/GSE149614_RNA_CNV_hucre_etiketleri.tsv",
+    "outputs/inferCNV_malignite_ayrimi.md",
+    "work/cnv",
+    "work/cnv_signature_results.json"
+  ],
+  "cnv_signature_sensitivity.py": [
+    "work/cnv",
+    "work/cnv_signature_results.json",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "cnv_signature_sensitivity_no_signature.py": [
+    "work/cnv_no_signature",
+    "work/cnv_no_signature_signature_results.json",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "cnv_verify_final.py": [
+    "work/cnv",
+    "work/cnv/input_manifest.json",
+    "work/cnv_final_verification.json",
+    "work/cnv_signature_results.json",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "common_support.py": [
+    "outputs/kovaryat-ortusmesi-duyarliligi.md",
+    "work/common_support_results.json",
+    "work/expanded_control_results.json",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "compare_cnv_no_signature.py": [
+    "outputs/CNV_47_gen_disarida_etiket_karsilastirmasi.json",
+    "work/cnv",
+    "work/cnv_no_signature"
+  ],
+  "drive_cnv_no_signature.py": [
+    "work/cnv_no_signature"
+  ],
+  "expanded_controls.py": [
+    "data/external/GSE149614_HCC.scRNAseq.S71915.count.txt.gz",
+    "outputs/genisletilmis-kontroller-raporu.md",
+    "work/data/g2m_genes.txt",
+    "work/data/s_genes.txt",
+    "work/expanded_control_plan.json",
+    "work/expanded_control_results.json",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz",
+    "work/matrix_gene_ids.txt",
+    "work/qc_audit.json"
+  ],
+  "finalize_cnv_no_signature.py": [
+    "work/cnv",
+    "work/cnv_no_signature",
+    "work/cnv_no_signature_signature_results.json",
+    "work/cnv_signature_results.json"
+  ],
+  "gse189175_cluster.py": [
+    "work/GSE189175_analysis_plan.json",
+    "work/GSE189175_cluster_audit.json",
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_normalized.npz",
+    "work/data/GSE189175_counts_features.tsv.gz",
+    "work/data/GSE189175_counts_matrix.mtx.gz",
+    "work/data/GSE189175_meta_data.tsv.gz",
+    "work/expanded_control_plan.json",
+    "work/qc_audit.json"
+  ],
+  "gse189175_deliver.py": [
+    "outputs/GSE189175_betimleyici_sinama.md",
+    "outputs/GSE189175_control_sensitivity.pdf",
+    "outputs/GSE189175_control_sensitivity.png",
+    "outputs/GSE189175_marker_audit.pdf",
+    "outputs/GSE189175_marker_audit.png",
+    "outputs/manuscript_external_results_draft.md",
+    "work/GSE189175_cluster_audit.json",
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_qr_check.txt",
+    "work/GSE189175_score_results.json",
+    "work/GSE189175_scores.npz",
+    "work/mplcache"
+  ],
+  "gse189175_score.py": [
+    "work/GSE189175_analysis_plan.json",
+    "work/GSE189175_annotation_decision.json",
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_normalized.npz",
+    "work/GSE189175_score_results.json",
+    "work/GSE189175_scores.npz",
+    "work/expanded_control_plan.json"
+  ],
+  "parallel_models_report.py": [
+    "outputs/iki_kohort_ayri_modeller.md",
+    "work/GSE189175_score_results.json",
+    "work/balance_results.json",
+    "work/expanded_control_results.json"
+  ],
+  "patient_uncertainty.py": [],
+  "plot_cnv_no_signature.py": [
+    "work/cnv_no_signature_signature_results.json",
+    "work/cnv_signature_results.json",
+    "work/mplcache"
+  ],
+  "prepare_cnv_no_signature.py": [
+    "work/cnv",
+    "work/cnv_no_signature",
+    "work/qc_audit.json"
+  ],
+  "prepare_infercnv.py": [
+    "data/external/GSE149614_HCC.scRNAseq.S71915.count.txt.gz",
+    "work/cnv",
+    "work/cnv/input_manifest.json",
+    "work/data/GSE149614_HCC.metadata.updated.txt.gz"
+  ],
+  "qc_audit.py": [
+    "data/external/GSE149614_HCC.scRNAseq.S71915.count.txt.gz",
+    "outputs/hepatosit-kalite-raporu.md",
+    "work/data/GSE149614_HCC.metadata.updated.txt.gz",
+    "work/matrix_audit.json",
+    "work/qc_audit.json"
+  ],
+  "quadratic_overlap.py": [
+    "outputs/kovaryat-dengeleme-v02.md",
+    "work/GSE189175_cluster_inputs.npz",
+    "work/GSE189175_scores.npz",
+    "work/balance_results.json",
+    "work/balance_weights.npz",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "random_controls.py": [
+    "data/external/GSE149614_HCC.scRNAseq.S71915.count.txt.gz",
+    "outputs/rastgele-gen-kontrolu.md",
+    "work/gene_sample_summaries.npz",
+    "work/hepatocyte_scoring_inputs.npz",
+    "work/qc_audit.json",
+    "work/random_control_result.json"
+  ],
+  "report_cnv_no_signature.py": [
+    "work/cnv_no_signature_signature_results.json",
+    "work/cnv_signature_results.json"
+  ],
+  "run_infercnv.R": [
+    "work/cnv",
+    "work/cnv/gene_order.tsv"
+  ],
+  "run_infercnv_hepref.R": [
+    "work/cnv",
+    "work/cnv/gene_order.tsv"
+  ],
+  "run_infercnv_hepref_no_signature.R": [
+    "work/cnv_no_signature",
+    "work/cnv_no_signature/gene_order.tsv"
+  ],
+  "run_infercnv_no_signature.R": [
+    "work/cnv_no_signature",
+    "work/cnv_no_signature/gene_order.tsv"
+  ],
+  "score_descriptive.py": [
+    "data/external/GSE149614_HCC.scRNAseq.S71915.count.txt.gz",
+    "outputs/ilk-betimleyici-puanlar.md",
+    "work/data/GSE149614_HCC.metadata.updated.txt.gz",
+    "work/descriptive_scores.json",
+    "work/hepatocyte_scoring_inputs.npz",
+    "work/qc_audit.json"
+  ],
+  "sharma_input_audit.py": [
+    "work/data/Sharma_HCC.h5ad",
+    "work/expanded_control_plan.json",
+    "work/qc_audit.json",
+    "work/sharma_metadata_audit.json",
+    "work/sharma_selected_inputs.npz"
+  ],
+  "stability.py": [
+    "outputs/derinlik-ve-kararlilik-raporu.md",
+    "work/hepatocyte_scoring_inputs.npz",
+    "work/stability_results.json"
+  ],
+  "verify_candidate_overlap.R": [
+    "work/candidate_overlap_",
+    "work/candidate_overlap_R_verification.tsv",
+    "work/candidate_overlap_expected.tsv"
+  ],
+  "verify_candidate_overlap.py": [
+    "work/candidate_overlap_",
+    "work/candidate_overlap_expected.tsv",
+    "work/cnv",
+    "work/cnv_signature_results.json",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "verify_candidate_overlap_no_signature.R": [
+    "work/candidate_overlap_no_signature_",
+    "work/candidate_overlap_no_signature_R_verification.tsv",
+    "work/candidate_overlap_no_signature_expected.tsv"
+  ],
+  "verify_candidate_overlap_no_signature.py": [
+    "work/candidate_overlap_no_signature_",
+    "work/candidate_overlap_no_signature_expected.tsv",
+    "work/cnv_no_signature",
+    "work/cnv_no_signature_signature_results.json",
+    "work/expanded_control_scores.npz",
+    "work/hepatocyte_scoring_inputs.npz"
+  ],
+  "verify_cnv_fastpath.R": [
+    "work/cnv/HCC06/primary",
+    "work/cnv_fastpath_verification.txt"
+  ],
+  "verify_cnv_no_signature_final.R": [
+    "outputs/CNV_47_gen_disarida_nesne_dogrulamasi.tsv",
+    "work/cnv_no_signature",
+    "work/cnv_no_signature/excluded_signature_genes.txt"
+  ],
+  "verify_overlap.R": [
+    "work/overlap_",
+    "work/overlap_R_verification.tsv"
+  ],
+  "verify_patient_uncertainty.py": [
+    "work/mplcache"
+  ]
+}

@@ -1,0 +1,345 @@
+[
+  {
+    "file": "scripts/assay_limit_report.py",
+    "original_archive_file": "work/assay_limit_report.py",
+    "original_sha256": "354ba5f5153c915a347b754e1b66bf671cd050159d1a83b1e3c5c0390bb546c8",
+    "refactored_sha256": "e4bc11fde49a61b7e25cfb8f713897c7c11238401b44b3f07d3f680ae76d50c2",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/audit_matrix.py",
+    "original_archive_file": "work/audit_matrix.py",
+    "original_sha256": "5a45edee57d07b9128c87a2674e9d1dc922e2a9430b95483d4be1f1c37e6e542",
+    "refactored_sha256": "ce7ea39d0f2f09fa4fa059832fa1c79703f9bf3e58501d4114a7fa215c804e01",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/balance_R_verify.py",
+    "original_archive_file": "work/balance_R_verify.py",
+    "original_sha256": "13cc06c29c54af788bca6cbfafcba894d1335c0646abd45d8b4d790f41435ff0",
+    "refactored_sha256": "cfb979a726125ffc88f81688eead4801a954d1c3dd43c5ba3a448b2b1cd3b89d",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/balance_analysis.py",
+    "original_archive_file": "work/balance_analysis.py",
+    "original_sha256": "fa3eee4a724c4f83153b6f3996f787e007cc45ada8967215438d285bd41c65cd",
+    "refactored_sha256": "a0cace58af3fe5e5ecb0e38827f5f4de0bf2526c99013bbacf80fea9c3aa78b0",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/balance_diagnostics.py",
+    "original_archive_file": "work/balance_diagnostics.py",
+    "original_sha256": "480038e86990c0ac709e2306933c66afe2b37719b59e078e486f62f2404765d4",
+    "refactored_sha256": "dc937428879f357c2ac9d9503ce4f7dcc078217601dc1defc0e18250ea01ab7b",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/balance_figures.py",
+    "original_archive_file": "work/balance_figures.py",
+    "original_sha256": "408b4e12c96eb443f12bce51e8cb5c3008fb03e6d06b51101afb23ae430e6d6c",
+    "refactored_sha256": "15e5b73a5992bdfb321f364fd3e7561e6098196fb42e18bdfe4a8ee5e8ad39bd",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/build_balance_report.py",
+    "original_archive_file": "work/build_balance_report.py",
+    "original_sha256": "bacc8a56121e6b47a71328eadd34b9e436abf25659224358cd21cd407d88ba8d",
+    "refactored_sha256": "c1690bfa091d3950b0209647233f4a728b8fe68f35e64b02e1bb62a7860e541f",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/build_gene_order.py",
+    "original_archive_file": "work/build_gene_order.py",
+    "original_sha256": "2f2d8907f9dd85794d68e1601e6c8fc472ad453a0fb53998a719ceeaeb6cdff4",
+    "refactored_sha256": "a09a67253e357a3e360a949fed8538916c7bec3eae29dbf06edd8332a155016f",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/classify_cnv.R",
+    "original_archive_file": "work/classify_cnv.R",
+    "original_sha256": "b8bfcc4fc1b988411fa170e0e9dce0f56f6908882983a9294e289f28b5f58605",
+    "refactored_sha256": "d2523989e79a5d1d9a25653e87372ac0551c917425710f28c02baec7ada88a62",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/classify_cnv_no_signature.R",
+    "original_archive_file": "work/classify_cnv_no_signature.R",
+    "original_sha256": "65e8a156ee14f63272c61497e3f91505beba8d0d33d04cfa26c607a90b9c0f2a",
+    "refactored_sha256": "2824eda715bf83ae23f44321be5eb46ded1f303aee55dd7c98783cda094698c1",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_all_figures.py",
+    "original_archive_file": "work/cnv_all_figures.py",
+    "original_sha256": "fab1f67e1d94451a0344a8983ebbee3000bc216ce7e61b1142f2032278d53040",
+    "refactored_sha256": "b4a1580d6b03e6020e006ee0f497d983258b1f4ff7ec6038dd4cd4e849f4a60d",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_consensus_fastpath.R",
+    "original_archive_file": "work/cnv_consensus_fastpath.R",
+    "original_sha256": "c1c600e400f29093f56f95221bc89517ba6da2745a79c6d4e3b0a1628ff4a2fd",
+    "refactored_sha256": "ee6a8d565dac2454845d16caedefe19f9a6535134654716ad613872ce22105c3",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_preview.py",
+    "original_archive_file": "work/cnv_preview.py",
+    "original_sha256": "aadc1e077a65fc2f62074817221b6eab85c66b88fc2f00fad5f415b10f2be76e",
+    "refactored_sha256": "be61daf54d81660d214cdb3c374688b49cf1c26cde5b791d3722b1c89cfccfca",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_report.py",
+    "original_archive_file": "work/cnv_report.py",
+    "original_sha256": "4f6f6e53a64003b7ebfefc2f9db49fcd3a1c1ed046c3c0988310d268574c6db5",
+    "refactored_sha256": "11d449f6eece0822dface9b44b44e58353f085c9a7cebd4ee9548d0b1272cd13",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_signature_sensitivity.py",
+    "original_archive_file": "work/cnv_signature_sensitivity.py",
+    "original_sha256": "15b072b0ab96c336fe91776119208d22272cc2b0af4933346415db23d9df1134",
+    "refactored_sha256": "64863500e96b6a874042f5e083385055aaf50f7e01de53572e8fd98e5cce5c8d",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_signature_sensitivity_no_signature.py",
+    "original_archive_file": "work/cnv_signature_sensitivity_no_signature.py",
+    "original_sha256": "8f1e35609107182758afc9f2618233fb43a93cef772cb18d940e9b8175abd8d9",
+    "refactored_sha256": "10506ef270e95e03eae736d698a6082e4d64c4ad4689420241a772bf99220bcb",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/cnv_verify_final.py",
+    "original_archive_file": "work/cnv_verify_final.py",
+    "original_sha256": "2d3f6a0e7155b2c3f4e474c95f9725503b0f09fdf313d3c988e210b4822a1701",
+    "refactored_sha256": "9681fc6c0ed51a2bf47e76456c2a2d7183243a13385b6738e7d36ee41c8e38a8",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/common_support.py",
+    "original_archive_file": "work/common_support.py",
+    "original_sha256": "4fc1a180418f7da2c7b667f9bfbaa6663af211579b7214436575dbd3fb267921",
+    "refactored_sha256": "94c09c71b0a8f5039759b32a561b8656d0080cb0f2256e7c71492fb3b734b7c7",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/compare_cnv_no_signature.py",
+    "original_archive_file": "work/compare_cnv_no_signature.py",
+    "original_sha256": "d34662d877ea0f7e69fc6fc16e525196513adc8475e998f8acf767e2bc7de237",
+    "refactored_sha256": "315cf9c15eb9fc836058b48f48fc7373257c2fa664a8c9b4dbe57957c8999fc2",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/drive_cnv_no_signature.py",
+    "original_archive_file": "work/drive_cnv_no_signature.py",
+    "original_sha256": "9d3a75ec7af90e4cfa566c80b962ad901c0485a5b1b2184dd22994cb4a9c4220",
+    "refactored_sha256": "efcdeff110b4a898a7ec786fb077b0e86a8895b6c7fcc7fc8c4779cb25c0e341",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/expanded_controls.py",
+    "original_archive_file": "work/expanded_controls.py",
+    "original_sha256": "7b8c48695651453ae6071dbbd772bee722bfa59c081b91c1f12985bcaa407430",
+    "refactored_sha256": "0c7969bc3b1c2d4e64c91234c85a800adcbb5b5e98182ddff2c7a00fb3fa03bd",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/finalize_cnv_no_signature.py",
+    "original_archive_file": "work/finalize_cnv_no_signature.py",
+    "original_sha256": "0fca6569ddce9967fdc1e2b0e2af704ce3c87725a5e73c4b5b9a89c9fcdaaf3c",
+    "refactored_sha256": "94994d93ae7f2bfe601f9ef7e7fc0af01af8c6819a44294e39abaf20f2a034af",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/gse189175_cluster.py",
+    "original_archive_file": "work/gse189175_cluster.py",
+    "original_sha256": "c459a800e38c831165a49b503712bf3d1c00dac3672d0c1af4845f137aefca6c",
+    "refactored_sha256": "09ebe81e80b19c94a419ab06b3e02d2bae2d9c3aa5e0444917512c710f68656a",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/gse189175_deliver.py",
+    "original_archive_file": "work/gse189175_deliver.py",
+    "original_sha256": "002948b18c5a65266415f45129e3c20c92e26c05ee41b97d52291873efbce4e6",
+    "refactored_sha256": "57fa098e3b3b62c564f0ab1323cbd5b8e512ab39ef994c5b2230191bfb9c321f",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/gse189175_score.py",
+    "original_archive_file": "work/gse189175_score.py",
+    "original_sha256": "4066e7827dca15fad125505e22c2a372084a0666e22d969d660e47a885c5ae49",
+    "refactored_sha256": "492ae69b24458e374152c6425e94353977067397ef9b79c810ca67000f4e9905",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/parallel_models_report.py",
+    "original_archive_file": "work/parallel_models_report.py",
+    "original_sha256": "b1c85a91d510967e4f2d093beaa62c793cf720e93e3b2244295ec97161fff570",
+    "refactored_sha256": "491fa895393e56edcd5bda4ae671578ea183d863e4eaac185330fcfdda49fd58",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/patient_uncertainty.py",
+    "original_archive_file": "work/patient_uncertainty.py",
+    "original_sha256": "a82eb7e6e7f87d3e07caa568e0d82a43af6ee3d259398d42d63bde2bdd067a1e",
+    "refactored_sha256": "da0813054503eb426e671a9e750d5e300f96c176b0b3de6d5a2363f0099df4eb",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/plot_cnv_no_signature.py",
+    "original_archive_file": "work/plot_cnv_no_signature.py",
+    "original_sha256": "bc007fe58993204db167fdb593768771745632c211acfd092b5aecdce46329b9",
+    "refactored_sha256": "4990d7265bb7780e0fef7be5e4bcebe71c087d71de1cd9631aa57b4c48d0e761",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/prepare_cnv_no_signature.py",
+    "original_archive_file": "work/prepare_cnv_no_signature.py",
+    "original_sha256": "a233386ab37748a238bcead5deb928a1003160f92840ddcf11cdffb795f183ec",
+    "refactored_sha256": "d22eedfb6a0d32c11f4c79125dd550a3e0131a6941a5346dcbec0b29d8d89ed4",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/prepare_infercnv.py",
+    "original_archive_file": "work/prepare_infercnv.py",
+    "original_sha256": "c8a1f147687ebf3ce3abbb943244b8d59ff96fd2567df523d6f1baa7395153c7",
+    "refactored_sha256": "36a8d58b55cafbad49c04e59fa307781ebc63de6f747a4bbc248efefa766214c",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/qc_audit.py",
+    "original_archive_file": "work/qc_audit.py",
+    "original_sha256": "bffe5abe5691ac38cee1507b90170809adcf21bcb41ce66ef472ab5d45f3f80d",
+    "refactored_sha256": "ae37f4e0fefdee4eb15b204d4dbf2e13dc484b01798a0c59b562b6d2c6fdbfac",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/quadratic_overlap.py",
+    "original_archive_file": "work/quadratic_overlap.py",
+    "original_sha256": "dc5ded89c13de6a641d1e1f138c6b0e775acceddcb557464545df29ddd24d67b",
+    "refactored_sha256": "c60bd512d519702404f4e395e14cf4c9fd6959e00fdc76ea1cded84499224a02",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/random_controls.py",
+    "original_archive_file": "work/random_controls.py",
+    "original_sha256": "feb87fb67ac57b606aa63af5c473a2f481d84a6a727f52683cd92bd845f98f1b",
+    "refactored_sha256": "e7f6b911096054ddcae081d79f221717c09c0b4b376e684a18d2aee01b8250ed",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/report_cnv_no_signature.py",
+    "original_archive_file": "work/report_cnv_no_signature.py",
+    "original_sha256": "c1c395c8edf5d77f708d7ae22417517b4a751e39f4fae58e5edc4997c33430a0",
+    "refactored_sha256": "0de7752bc82d61a0e9383c48444e98adff4c87e020f4d0402e649ce89bff20fc",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/run_infercnv.R",
+    "original_archive_file": "work/run_infercnv.R",
+    "original_sha256": "cac2b2afe9c1d78f30e180be2db92427a8b8b36084afc45d39158b88e200fd34",
+    "refactored_sha256": "c7e51523aaefbc615ac6ac11909adf26d7eb19a3905b5f94605688fb8b9e4906",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/run_infercnv_hepref.R",
+    "original_archive_file": "work/run_infercnv_hepref.R",
+    "original_sha256": "0a9997f43e1eca0181eb8acf2d95476db3945c623d253d749f5b9909aa942897",
+    "refactored_sha256": "d144e7cf54304f8dfba47c0766d9a783a8a1222e00173f416365f5c0a5549a54",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/run_infercnv_hepref_no_signature.R",
+    "original_archive_file": "work/run_infercnv_hepref_no_signature.R",
+    "original_sha256": "be08e20316fc79d4c9086382806d54cbf16d300e1385c17952822fb9d73a3f30",
+    "refactored_sha256": "e8d50edf6b4fc669e4d487f54c015a4a051a611191b9d8c0b24845aabd8170ee",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/run_infercnv_no_signature.R",
+    "original_archive_file": "work/run_infercnv_no_signature.R",
+    "original_sha256": "b50c29ff6bbf2cb3e7cb7822ae6843b2912e54c69eb05cdb546897728d4eca33",
+    "refactored_sha256": "1b93df399788e3423ff2e17f90833b854dfe7e2b673a661a9f62efc6cea02de5",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/score_descriptive.py",
+    "original_archive_file": "work/score_descriptive.py",
+    "original_sha256": "847080b5e881d25bc4e8759b95e06c949bd6573aa5b46dda75da91dac9a6b87a",
+    "refactored_sha256": "c34558a194afa4e4b32cbacef911042f01d6cad52c45e1f6313db44281a4ed05",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/sharma_input_audit.py",
+    "original_archive_file": "work/sharma_input_audit.py",
+    "original_sha256": "b2542c4fa80179cd7726089378303b31c9649ed918b4e4e5daf1d90e4ac97625",
+    "refactored_sha256": "7720d1cb1e9730f4a5070a322a0916406509f1232d6d17325935b79327f82a79",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/stability.py",
+    "original_archive_file": "work/stability.py",
+    "original_sha256": "50b5b27ff6b1020217f54c10173609040234cbe5a4b72dfb59c71063463d3153",
+    "refactored_sha256": "708107ffc64fd5c760f06de3b25a7f0e708d985acf85124479dc523e2a6c7f67",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_candidate_overlap.R",
+    "original_archive_file": "work/verify_candidate_overlap.R",
+    "original_sha256": "22e2684cc6dc04071a0a4215550342a1e2672f9e5be810f1ce5e4b559f85b53f",
+    "refactored_sha256": "c87077244c4332e604baebc101552985d5a45779c4d6f441a4edc62c2140d4e4",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_candidate_overlap.py",
+    "original_archive_file": "work/verify_candidate_overlap.py",
+    "original_sha256": "1fa4a70d5897ae3ceeb8f597eedc070db6ba71cbc56389be077d20a332fa5400",
+    "refactored_sha256": "4df22858849fd6d7c3a7c9d93313902eb401973e51631ccf82194030e405ee15",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_candidate_overlap_no_signature.R",
+    "original_archive_file": "work/verify_candidate_overlap_no_signature.R",
+    "original_sha256": "50ddc40974eca9bb9356eddc173d6e798b74ec5ed682ee9bb578bfe356a92587",
+    "refactored_sha256": "7547be856f11b39a98b551a4531d3a66b0b57aeda6d050c254a9fbacfff8f7de",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_candidate_overlap_no_signature.py",
+    "original_archive_file": "work/verify_candidate_overlap_no_signature.py",
+    "original_sha256": "3873d47f3a6ff016dced4c3f752e2961b0d5842a62c28661be1b3e625f4be49e",
+    "refactored_sha256": "2d223900f4322ee6ed032a7fef9b81a487fe3590e9614c5371da9636a21ed78e",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_cnv_fastpath.R",
+    "original_archive_file": "work/verify_cnv_fastpath.R",
+    "original_sha256": "9dc198101cc51568cdc552432d5cb6c5ccb1dc58b24423cf6cfe6963a4055ac7",
+    "refactored_sha256": "93b877ca58bc3dac0ffa29b7fcbe15888886ca92c23d6589f1ed495378772170",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_cnv_no_signature_final.R",
+    "original_archive_file": "work/verify_cnv_no_signature_final.R",
+    "original_sha256": "db3e48b0d13bd7a88b8f6039fc9ecdf75d01fd64879e64ad54432e2f501565bd",
+    "refactored_sha256": "8185ad4c3b55ce3c58ca7ab5750eb1d6a308d42c64e9340f4928d99eed04f706",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_overlap.R",
+    "original_archive_file": "work/verify_overlap.R",
+    "original_sha256": "ff2ffbcfa3d69c55f72707476adb4ddb1d08b206af2f9aa43d276e05dbaa615e",
+    "refactored_sha256": "1c220fb4171cdc689000512d9f0754062cecb04e0afb341a261bfebfb335bfc2",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  },
+  {
+    "file": "scripts/verify_patient_uncertainty.py",
+    "original_archive_file": "work/verify_patient_uncertainty.py",
+    "original_sha256": "fe33d88a43525f0d3a141303d52c0b72046cef1972133ba5cc524954703ea65a",
+    "refactored_sha256": "7c61beb498b9e64e76615a3fba4ad4773a7b9e3226f80fb7b3cf63c3531c4441",
+    "changes": "runtime/source path portability; shared pure functions where applicable; statistical formulas preserved"
+  }
+]
