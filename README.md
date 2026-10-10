@@ -23,13 +23,13 @@ Differences are tumour minus adjacent tissue, in the mean log-normalized express
 
 ## Patient uncertainty
 
-![Patient-level uncertainty and leave-one-patient-out sensitivity](patient_uncertainty.png)
+![Patient-level uncertainty and leave-one-patient-out sensitivity](figures/patient_uncertainty.png)
 
 The figure shows original-label analyses. Intervals resample patients while holding recorded within-patient contrasts fixed. They do not propagate all uncertainty in CNV selection, annotation or fitted weights. The three-patient snRNA distribution is particularly discrete. Intervals spanning zero do not demonstrate equivalence.
 
 ## Signature exclusion from CNV inference
 
-![Signature-excluded inferCNV comparison](signature_excluded_CNV.png)
+![Signature-excluded inferCNV comparison](figures/signature_excluded_CNV.png)
 
 The 47 genes were removed from CNV counts and genomic-order inputs. Cell sets, references and classification criteria were retained; signature scoring remained unchanged. HCC10 candidate-set Jaccard agreement was 58.5%, substantially below the other patients. A small net change in candidate count conceals hundreds of label changes.
 
@@ -43,15 +43,37 @@ A restrictive joint range filter retained adequate paired support in only one of
 
 The Sharma archive was excluded from paired hepatocyte inference because the selected adjacent populations contained only 0–7 cells per patient. The source accession was corrected to GSE156337; GSE175111 was not used. This exclusion does not imply that the source tissue lacked hepatocytes.
 
-[Read the methods and implementation scope](METHODS.md).
+[Read the methods and implementation scope](docs/METHODS.md).
 
 ## Code and computational checks
 
-[Download the 49-script source snapshot](HCC-analysis-scripts.zip). The archive contains the original project filenames under `work/`, with a source checksum manifest. It excludes raw counts, cell-barcode exports, large CNV objects, installed libraries and manuscript drafts.
+The 49 original analysis scripts are now directly browsable under [scripts/](scripts/), with two shared Python numerical modules and an R runtime helper. Follow the [stage-by-stage code index](docs/CODE_INDEX.md), [execution guide](docs/REPRODUCING.md) and [validation report](docs/VALIDATION.md). The original [ZIP snapshot](archive/HCC-analysis-scripts.zip) is retained only as historical provenance.
 
 Independent R calculations agreed with Python for all eight new candidate overlap contrasts, with maximum absolute difference below 8.63 × 10⁻⁹. All 16 final signature-excluded CNV objects retained their input cells and contained none of the 47 excluded genes. These checks test implementation agreement. They do not establish biological truth.
 
-The snapshot requires original data and intermediate caches that are not included. It has not been rerun in a clean environment. It should be inspected as research code, not advertised as a single-command pipeline.
+A new isolated Python 3.11 environment passed six numerical tests. All 13 original patient-uncertainty summaries matched exactly, and weighting was recomputed for eight scRNA and three snRNA patients from existing local caches with no contrast difference. This is partial computational reproduction. Raw-data processing, clustering and inferCNV were not rerun; required preparation plans and caches are not all public.
+
+
+## Repository and local checks
+
+```text
+scripts/       R/Python source; 49 original filenames plus shared helpers
+docs/          Methods, source index, input-path audit and validation
+environment/   Tested Python version snapshots and R environment scope
+tests/         Independent numerical checks using synthetic data
+figures/       Research figures
+archive/       Historical source ZIP
+```
+
+```sh
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r environment/requirements-lock.txt
+python check_environment.py
+python -m unittest discover -s tests -v
+```
+
+`run_analysis.py` runs one documented stage against a specified local workspace. It does not retrieve missing data or execute the entire study automatically. Runtime data, caches, raw matrices and generated CNV objects are excluded through `.gitignore`.
 
 ## Researcher contribution and AI assistance
 
@@ -59,7 +81,9 @@ Aydın Utku Çetiner directed the research question, analysis priorities and dec
 
 ## Remaining work
 
-CopyKAT has not been run. Independent DNA-based malignancy validation is unavailable. SoupX and intron/exon capture analyses were not performed because the required inputs were not available in the processed packages. Alternative signature-scoring methods and a portable, tested execution environment remain unresolved.
+CopyKAT has not been run. Independent DNA-based malignancy validation is unavailable. SoupX and intron/exon capture analyses were not performed because the required inputs were not available in the processed packages. Alternative signature-scoring methods, complete public input preparation, a clean R/CNV rebuild and cross-platform execution remain unresolved.
+
+Accuracy, precision, recall and F1 have not been calculated. Independent reference labels are unavailable, and agreement between RNA-derived methods would measure concordance rather than diagnostic accuracy.
 
 The project does not establish regeneration, a causal tumour mechanism, metastatic function or clinical utility.
 

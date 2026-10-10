@@ -1,0 +1,17 @@
+# Local environments, raw data, caches and derived biological objects
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+work/
+data/
+outputs/
+*.h5ad
+*.rds
+*.RDS
+*.npz
+*.mtx
+*.mtx.gz
+*.bam
+*.fastq.gz
+.env
