@@ -1,0 +1,4 @@
+source(file.path(Sys.getenv('HCC_SOURCE_ROOT', '.'), 'scripts/runtime.R'))
+r=read.delim('work/candidate_overlap_expected.tsv');out=list()
+for(i in seq_len(nrow(r))){p=r$patient[i];d=read.delim(paste0('work/candidate_overlap_',p,'.tsv'));f=glm(T~x1+x2+x3+x4+x5,data=d,family=binomial(),control=glm.control(epsilon=1e-12,maxit=200));ps=fitted(f);w=ifelse(d$T==1,1-ps,ps);v=weighted.mean(d$y[d$T==1],w[d$T==1])-weighted.mean(d$y[d$T==0],w[d$T==0]);f2=lm(y~T+x1+x2+x3+x4+x5,data=d,weights=ifelse(d$T==1,1/sum(d$T==1),1/sum(d$T==0)));beta=unname(coef(f2)['T']);out[[i]]=data.frame(patient=p,R_difference=v,python_difference=r$expected[i],absolute_error=abs(v-r$expected[i]),converged=f$converged,regression_error=abs(beta-r$regression_expected[i]))}
+o=do.call(rbind,out);write.table(o,'work/candidate_overlap_R_verification.tsv',sep='\t',row.names=FALSE,quote=FALSE);print(o);stopifnot(all(o$absolute_error<1e-6),all(o$converged),all(o$regression_error<1e-6))
