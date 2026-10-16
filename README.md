@@ -77,7 +77,9 @@ python -m unittest discover -s tests -v
 
 ## Researcher contribution and AI assistance
 
-Aydın Utku Çetiner directed the research question, analysis priorities and decisions to widen controls, separate cohorts, exclude unsuitable paired comparisons and require malignancy assessment before interpreting tumour-derived hepatocytes. AI assistance covered code generation, computational analysis, figures and manuscript drafting. No percentage of independently written code is claimed.
+Aydın Utku Çetiner conceived and directed the study, established the research objectives, designed the analytical framework, and determined the methodological approach. He defined the control groups, evaluated cohort characteristics, identified unsuitable comparisons, and established the criteria for interpreting tumour-derived hepatocyte data.
+
+AI-assisted tools were employed to support code development, computational analysis, data visualization, and manuscript preparation. The scientific reasoning, methodological decisions, evaluation of results, and final interpretations remained under the author’s responsibility.
 
 ## Remaining work
 
